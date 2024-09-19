@@ -50,4 +50,9 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#FFFFFF",
   },
+  row: {
+    height: 48,
+    flexDirection: "row",
+    alignItems: "center",
+  },
 });
