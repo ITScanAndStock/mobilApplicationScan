@@ -1,0 +1,300 @@
+[
+    {
+      "id": 1,
+      "designation": "ADHESIF ABCD VPS 17 ML",
+      "fournisseur": "DENTALTURC",
+      "categorie": "IMPLANTOLOGIE",
+      "prix": 3.00,
+      "stock": 6,
+      "alerte": 10
+    },
+    {
+      "id": 2,
+      "designation": "ADHESIF XYZ 20 ML",
+      "fournisseur": "DENTALTURC",
+      "categorie": "IMPLANTOLOGIE",
+      "prix": 4.50,
+      "stock": 15,
+      "alerte": 5
+    },
+    {
+      "id": 3,
+      "designation": "COLLE DENTAIRE 10 ML",
+      "fournisseur": "DENTALTURC",
+      "categorie": "ORTHODONTIE",
+      "prix": 2.75,
+      "stock": 8,
+      "alerte": 3
+    },
+    {
+      "id": 4,
+      "designation": "GEL HEMOSTATIQUE 30 ML",
+      "fournisseur": "DENTALPRO",
+      "categorie": "CHIRURGIE",
+      "prix": 6.00,
+      "stock": 12,
+      "alerte": 4
+    },
+    {
+      "id": 5,
+      "designation": "CIMENT PROTECTEUR 50 ML",
+      "fournisseur": "DENTALPRO",
+      "categorie": "IMPLANTOLOGIE",
+      "prix": 5.20,
+      "stock": 20,
+      "alerte": 6
+    },
+    {
+      "id": 6,
+      "designation": "PATE DENTAIRE 100 ML",
+      "fournisseur": "HEALTHCARE",
+      "categorie": "HYGIENE",
+      "prix": 3.90,
+      "stock": 25,
+      "alerte": 10
+    },
+    {
+      "id": 7,
+      "designation": "SOLUTION DENTAIRE 500 ML",
+      "fournisseur": "HEALTHCARE",
+      "categorie": "HYGIENE",
+      "prix": 7.50,
+      "stock": 18,
+      "alerte": 8
+    },
+    {
+      "id": 8,
+      "designation": "GEL ANTI-BACTERIEN 25 ML",
+      "fournisseur": "MEDICARE",
+      "categorie": "HYGIENE",
+      "prix": 4.00,
+      "stock": 30,
+      "alerte": 12
+    },
+    {
+      "id": 9,
+      "designation": "ANTISEPTIQUE DENTAIRE 100 ML",
+      "fournisseur": "MEDICARE",
+      "categorie": "HYGIENE",
+      "prix": 5.80,
+      "stock": 22,
+      "alerte": 7
+    },
+    {
+      "id": 10,
+      "designation": "COLLE ADHESIVE 15 ML",
+      "fournisseur": "DENTALPRO",
+      "categorie": "ORTHODONTIE",
+      "prix": 3.20,
+      "stock": 14,
+      "alerte": 5
+    },
+    {
+      "id": 11,
+      "designation": "SOLUTION DE RINÇAGE 250 ML",
+      "fournisseur": "HEALTHCARE",
+      "categorie": "HYGIENE",
+      "prix": 6.50,
+      "stock": 19,
+      "alerte": 6
+    },
+    {
+      "id": 12,
+      "designation": "PROTECTEUR DENTAIRE 40 ML",
+      "fournisseur": "DENTALTURC",
+      "categorie": "IMPLANTOLOGIE",
+      "prix": 4.80,
+      "stock": 17,
+      "alerte": 9
+    },
+    {
+      "id": 13,
+      "designation": "CIMENT FORT 30 ML",
+      "fournisseur": "MEDICARE",
+      "categorie": "CHIRURGIE",
+      "prix": 6.30,
+      "stock": 11,
+      "alerte": 4
+    },
+    {
+      "id": 14,
+      "designation": "ADHESIF DENTAIRE 25 ML",
+      "fournisseur": "HEALTHCARE",
+      "categorie": "ORTHODONTIE",
+      "prix": 5.00,
+      "stock": 16,
+      "alerte": 6
+    },
+    {
+      "id": 15,
+      "designation": "CIMENT TEMPORAIRE 50 ML",
+      "fournisseur": "DENTALPRO",
+      "categorie": "IMPLANTOLOGIE",
+      "prix": 5.90,
+      "stock": 13,
+      "alerte": 7
+    },
+    {
+      "id": 16,
+      "designation": "GEL ANTI-BACTERIEN 50 ML",
+      "fournisseur": "MEDICARE",
+      "categorie": "HYGIENE",
+      "prix": 4.30,
+      "stock": 28,
+      "alerte": 9
+    },
+    {
+      "id": 17,
+      "designation": "COLLE RESINEUSE 20 ML",
+      "fournisseur": "DENTALTURC",
+      "categorie": "ORTHODONTIE",
+      "prix": 3.80,
+      "stock": 21,
+      "alerte": 8
+    },
+    {
+      "id": 18,
+      "designation": "SOLUTION DENTAIRE 100 ML",
+      "fournisseur": "HEALTHCARE",
+      "categorie": "HYGIENE",
+      "prix": 4.90,
+      "stock": 24,
+      "alerte": 10
+    },
+    {
+      "id": 19,
+      "designation": "GEL HEMOSTATIQUE 50 ML",
+      "fournisseur": "DENTALPRO",
+      "categorie": "CHIRURGIE",
+      "prix": 7.00,
+      "stock": 15,
+      "alerte": 5
+    },
+    {
+      "id": 20,
+      "designation": "ANTISEPTIQUE DENTAIRE 50 ML",
+      "fournisseur": "MEDICARE",
+      "categorie": "HYGIENE",
+      "prix": 6.20,
+      "stock": 20,
+      "alerte": 6
+    },
+    {
+      "id": 21,
+      "designation": "COLLE DENTAIRE 20 ML",
+      "fournisseur": "DENTALTURC",
+      "categorie": "ORTHODONTIE",
+      "prix": 3.50,
+      "stock": 12,
+      "alerte": 4
+    },
+    {
+      "id": 22,
+      "designation": "GEL ANTI-BACTERIEN 100 ML",
+      "fournisseur": "MEDICARE",
+      "categorie": "HYGIENE",
+      "prix": 5.50,
+      "stock": 18,
+      "alerte": 7
+    },
+    {
+      "id": 23,
+      "designation": "CIMENT DENTAIRE 25 ML",
+      "fournisseur": "DENTALPRO",
+      "categorie": "IMPLANTOLOGIE",
+      "prix": 5.00,
+      "stock": 10,
+      "alerte": 5
+    },
+    {
+      "id": 24,
+      "designation": "PATE DE RINÇAGE 250 ML",
+      "fournisseur": "HEALTHCARE",
+      "categorie": "HYGIENE",
+      "prix": 7.20,
+      "stock": 13,
+      "alerte": 6
+    },
+    {
+      "id": 25,
+      "designation": "CIMENT TEMPORAIRE 40 ML",
+      "fournisseur": "DENTALTURC",
+      "categorie": "IMPLANTOLOGIE",
+      "prix": 5.70,
+      "stock": 14,
+      "alerte": 7
+    },
+    {
+      "id": 26,
+      "designation": "COLLE ADHESIVE 10 ML",
+      "fournisseur": "MEDICARE",
+      "categorie": "ORTHODONTIE",
+      "prix": 2.90,
+      "stock": 22,
+      "alerte": 5
+    },
+    {
+      "id": 27,
+      "designation": "GEL ANTI-BACTERIEN 200 ML",
+      "fournisseur": "HEALTHCARE",
+      "categorie": "HYGIENE",
+      "prix": 7.80,
+      "stock": 16,
+      "alerte": 8
+    },
+    {
+      "id": 28,
+      "designation": "SOLUTION DENTAIRE 200 ML",
+      "fournisseur": "DENTALPRO",
+      "categorie": "HYGIENE",
+      "prix": 8.00,
+      "stock": 15,
+      "alerte": 5
+    },
+    {
+      "id": 29,
+      "designation": "PATE DENTAIRE 150 ML",
+      "fournisseur": "HEALTHCARE",
+      "categorie": "HYGIENE",
+      "prix": 4.20,
+      "stock": 21,
+      "alerte": 9
+    },
+    {
+      "id": 30,
+      "designation": "ADHESIF RESINEUX 30 ML",
+      "fournisseur": "DENTALTURC",
+      "categorie": "ORTHODONTIE",
+      "prix": 4.00,
+      "stock": 18,
+      "alerte": 6
+    },
+    {
+      "id": 31,
+      "designation": "ANTISEPTIQUE DENTAIRE 200 ML",
+      "fournisseur": "MEDICARE",
+      "categorie": "HYGIENE",
+      "prix": 7.00,
+      "stock": 14,
+      "alerte": 7
+    },
+    {
+      "id": 32,
+      "designation": "GEL HEMOSTATIQUE 100 ML",
+      "fournisseur": "DENTALPRO",
+      "categorie": "CHIRURGIE",
+      "prix": 8.50,
+      "stock": 12,
+      "alerte": 5
+    },
+    {
+      "id": 33,
+      "designation": "COLLE DENTAIRE 30 ML",
+      "fournisseur": "HEALTHCARE",
+      "categorie": "ORTHODONTIE",
+      "prix": 4.60,
+      "stock": 17,
+      "alerte": 6
+    }
+  ]
+  
