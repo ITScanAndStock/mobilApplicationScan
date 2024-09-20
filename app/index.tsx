@@ -3,6 +3,7 @@ import { Text, StyleSheet, View, Image, Pressable } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import SearcheBar from "../components/SearcheBar";
 import { Row } from "@/components/Row";
+import AlerteAndStock from "@/components/AlerteAndStock";
 
 export default function Index() {
   const [search, setSearch] = useState("");
@@ -22,9 +23,8 @@ export default function Index() {
       <Row style={styles.search}>
         <SearcheBar value={search} onChange={setSearch} />
       </Row>
-
-      <View style={styles.body}>
-        <Text>Je suis une légende</Text>
+      <View style={styles.search}>
+        <AlerteAndStock />
       </View>
     </>
   );
@@ -51,8 +51,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
   },
   row: {
-    height: 48,
     flexDirection: "row",
-    alignItems: "center",
+    width: "100%",
+    justifyContent: "space-around",
+    alignItems: "center", // pour aligner verticalement
+    padding: 10,
   },
 });
