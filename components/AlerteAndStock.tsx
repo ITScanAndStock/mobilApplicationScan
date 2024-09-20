@@ -58,7 +58,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff", // Fond blanc pour la valeur
     borderTopRightRadius: 20,
     borderBottomRightRadius: 20,
-    paddingHorizontal: 10,
+    width: 30,
+
     paddingVertical: 5,
     justifyContent: "center",
     alignItems: "center",
@@ -86,7 +87,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff", // Fond blanc pour la valeur
     borderTopRightRadius: 20,
     borderBottomRightRadius: 20,
-    paddingHorizontal: 10,
+    width: 30,
     paddingVertical: 5,
     justifyContent: "center",
     alignItems: "center",
