@@ -1,5 +1,6 @@
 import { Text, View, TouchableOpacity, Image } from "react-native";
 import { styles } from "./ProductCard.style";
+import icons from "@/constant/icons";
 
 function ProductCard() {
   return (
@@ -9,14 +10,14 @@ function ProductCard() {
         <View style={styles.row}>
           <Image
             style={styles.image}
-            source={require("../../assets/images/fournisseur.png")}
+            source={icons.darkTruck}
           />
           <Text style={styles.fournisseur}>fournisseur</Text>
         </View>
         <View style={styles.row}>
           <Image
             style={styles.image}
-            source={require("../../assets/images/categorie.png")}
+            source={icons.categorie}
           />
           <Text style={styles.categorie}>categorie</Text>
         </View>
