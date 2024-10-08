@@ -1,15 +1,16 @@
-import { View, Text, Image, StyleSheet, ScrollView, KeyboardAvoidingView, Platform, TouchableOpacity } from "react-native";
-import React, { useState } from "react";
-import { SafeAreaView } from "react-native-safe-area-context";
-import icons from "@/constant/icons";
-import CustomButton from "@/components/CustomButton";
-import FormField from "@/components/FormField";
-import { router } from "expo-router";
+import { View, Text, Image, StyleSheet, ScrollView, KeyboardAvoidingView, Platform, TouchableOpacity } from 'react-native';
+import React, { useState } from 'react';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import icons from '@/constant/icons';
+import CustomButton from '@/components/CustomButton';
+import FormField from '@/components/FormField';
+import { router } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
 
 export default function Index() {
   const [form, setForm] = useState({
-    identifiant: "",
-    password: "",
+    identifiant: '',
+    password: '',
   });
 
   type User = {
@@ -18,8 +19,8 @@ export default function Index() {
   };
 
   const robin: User = {
-    identifiant: "",
-    password: "",
+    identifiant: '',
+    password: '',
   };
 
   const [error, setError] = useState(false);
@@ -27,10 +28,10 @@ export default function Index() {
   const handlePress = () => {
     if (form.identifiant === robin.identifiant && form.password === robin.password) {
       setError(false);
-      router.push("/(tabs)/scan");
+      router.push('/(tabs)/scan');
     } else {
       setError(true);
-      alert("Identifiant ou mot de passe incorrect");
+      alert('Identifiant ou mot de passe incorrect');
     }
   };
 
@@ -38,8 +39,8 @@ export default function Index() {
     <SafeAreaView style={{ flex: 1 }}>
       <KeyboardAvoidingView
         style={{ flex: 1 }}
-        behavior={Platform.OS === "ios" ? "padding" : "height"}
-        keyboardVerticalOffset={Platform.OS === "ios" ? 40 : 0}
+        behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+        keyboardVerticalOffset={Platform.OS === 'ios' ? 40 : 0}
       >
         <ScrollView contentContainerStyle={styles.scrollContainer} keyboardShouldPersistTaps="handled">
           <View style={styles.container}>
@@ -68,7 +69,7 @@ export default function Index() {
                 error={error}
               />
 
-              <TouchableOpacity onPress={() => router.push("/forgottenPassword")}>
+              <TouchableOpacity onPress={() => router.push('/forgottenPassword')}>
                 <Text> Mot de passe oublié ? </Text>
               </TouchableOpacity>
             </View>
@@ -77,6 +78,7 @@ export default function Index() {
           </View>
         </ScrollView>
       </KeyboardAvoidingView>
+      <StatusBar style="dark" />
     </SafeAreaView>
   );
 }
@@ -88,33 +90,33 @@ const styles = StyleSheet.create({
   },
   scrollContainer: {
     flexGrow: 2,
-    justifyContent: "center",
+    justifyContent: 'center',
     padding: 5,
   },
   container: {
     flex: 1,
-    justifyContent: "space-evenly",
-    alignItems: "center",
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
     borderWidth: 3,
     borderRadius: 20,
-    borderColor: "#000000",
+    borderColor: '#000000',
   },
   text: {
-    fontFamily: "Montserrat",
+    fontFamily: 'Montserrat',
     fontSize: 16,
-    fontWeight: "700",
+    fontWeight: '700',
     lineHeight: 25,
   },
   textError: {
-    fontFamily: "Montserrat",
+    fontFamily: 'Montserrat',
     fontSize: 16,
-    fontWeight: "700",
+    fontWeight: '700',
     lineHeight: 25,
-    color: "#CB4343",
+    color: '#CB4343',
   },
   inputContainer: {
     gap: 20,
-    width: "100%",
+    width: '100%',
     paddingLeft: 10,
     paddingRight: 10,
   },

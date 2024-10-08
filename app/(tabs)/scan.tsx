@@ -1,11 +1,12 @@
-import { View, Text } from 'react-native';
+import { View, Text, SafeAreaView, Image, StyleSheet } from 'react-native';
 import React from 'react';
+import icons from '@/constant/icons';
 
 const Scan = () => {
   return (
-    <View>
-      <Text>Scan</Text>
-    </View>
+    <SafeAreaView>
+      <Text>je suis un scan</Text>
+    </SafeAreaView>
   );
 };
 
