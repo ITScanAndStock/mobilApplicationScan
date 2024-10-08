@@ -1,12 +1,16 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+import { SafeAreaView } from "react-native-safe-area-context";
+import Header from "@/components/Header";
 
-const Fournisseurs = () => {
+const fournisseurs = () => {
   return (
-    <View>
-      <Text>Fournisseurs</Text>
-    </View>
-  )
-}
+    <SafeAreaView>
+      <Text>fournisseurs</Text>
+    </SafeAreaView>
+  );
+};
 
-export default Fournisseurs
+export default fournisseurs;
+
+const styles = StyleSheet.create({});
