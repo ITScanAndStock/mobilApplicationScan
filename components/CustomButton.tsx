@@ -1,5 +1,5 @@
-import { Text, TouchableOpacity, StyleSheet } from "react-native";
-import React from "react";
+import { Text, TouchableOpacity, StyleSheet } from 'react-native';
+import React from 'react';
 
 type ButtonProps = {
   text: string;
@@ -16,15 +16,15 @@ const CustomButton = ({ text, handlePress }: ButtonProps) => {
 
 const styles = StyleSheet.create({
   container: {
-    alignSelf: "center",
-    backgroundColor: "#333B3F",
+    alignSelf: 'center',
+    backgroundColor: '#333B3F',
     padding: 10,
     borderRadius: 35,
-    alignItems: "center",
-    justifyContent: "center",
+    alignItems: 'center',
+    justifyContent: 'center',
     width: 250,
     height: 50,
-    shadowColor: "#000",
+    shadowColor: '#000',
     shadowOffset: {
       width: 0,
       height: 2,
@@ -35,10 +35,10 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   text: {
-    color: "#FFFFFF",
-    fontWeight: "700",
+    color: '#FFFFFF',
+    fontWeight: '700',
     fontSize: 16,
-    fontFamily: "Montserrat",
+    fontFamily: 'Montserrat-Regular',
   },
 });
 
