@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
     lineHeight: 19.5,
     fontWeight: "600",
     color: "#024965",
-    fontFamily: Platform.OS === "ios" ? "Helvetica Neue" : "Roboto",
+    fontFamily: 'Montserrat-Regular',
   },
   row: {
     flexDirection: "row",

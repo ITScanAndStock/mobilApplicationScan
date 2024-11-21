@@ -1,12 +1,12 @@
-import { View, Text, Image, StyleSheet } from "react-native";
-import React from "react";
-import { Tabs, Stack } from "expo-router";
-import icons from "@/constant/icons";
-import { LinearGradient } from "expo-linear-gradient";
+import { View, Text, Image, StyleSheet } from 'react-native';
+import React from 'react';
+import { Tabs, Stack } from 'expo-router';
+import icons from '@/constant/icons';
+import { LinearGradient } from 'expo-linear-gradient';
 
-import { ImageSourcePropType } from "react-native";
-import Header from "@/components/Header";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { ImageSourcePropType } from 'react-native';
+import Header from '@/components/Header';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 type TabIconProps = {
   icon: ImageSourcePropType;
@@ -30,10 +30,10 @@ const TabsLayout = () => {
         screenOptions={{
           tabBarShowLabel: false,
           tabBarBackground() {
-            return <LinearGradient colors={["#24353E", "#024965"]} style={{ flex: 1 }} />;
+            return <LinearGradient colors={['#24353E', '#024965']} style={{ flex: 1 }} />;
           },
           tabBarStyle: {
-            borderTopColor: "transparent",
+            borderTopColor: 'transparent',
             borderTopWidth: 0,
           },
         }}
@@ -41,41 +41,41 @@ const TabsLayout = () => {
         <Tabs.Screen
           name="order"
           options={{
-            title: "Commandes",
+            title: 'Commandes',
             headerShown: false,
-            tabBarIcon: ({ focused }) => <TabIcon icon={icons.order} color={focused ? "black" : "white"} focused={focused} />,
+            tabBarIcon: ({ focused }) => <TabIcon icon={icons.order} color={focused ? 'black' : 'white'} focused={focused} />,
           }}
         />
         <Tabs.Screen
           name="panier"
           options={{
-            title: "Panier",
+            title: 'Panier',
             headerShown: false,
-            tabBarIcon: ({ color, focused }) => <TabIcon icon={icons.darkBasket} color={focused ? "black" : "white"} focused={focused} />,
+            tabBarIcon: ({ focused }) => <TabIcon icon={icons.darkBasket} color={focused ? 'black' : 'white'} focused={focused} />,
           }}
         />
         <Tabs.Screen
           name="scan"
           options={{
-            title: "Scan",
+            title: 'Scan',
             headerShown: false,
-            tabBarIcon: ({ color, focused }) => <TabIcon icon={icons.darkScan} color={focused ? "black" : "white"} focused={focused} />,
+            tabBarIcon: ({ focused }) => <TabIcon icon={icons.darkScan} color={focused ? 'black' : 'white'} focused={focused} />,
           }}
         />
         <Tabs.Screen
           name="fournisseurs"
           options={{
-            title: "fournisseurs",
+            title: 'fournisseurs',
             headerShown: false,
-            tabBarIcon: ({ color, focused }) => <TabIcon icon={icons.darkTruck} color={focused ? "black" : "white"} focused={focused} />,
+            tabBarIcon: ({ focused }) => <TabIcon icon={icons.darkTruck} color={focused ? 'black' : 'white'} focused={focused} />,
           }}
         />
         <Tabs.Screen
           name="stock"
           options={{
-            title: "stock",
+            title: 'stock',
             headerShown: false,
-            tabBarIcon: ({ color, focused }) => <TabIcon icon={icons.darkStock} color={focused ? "black" : "white"} focused={focused} />,
+            tabBarIcon: ({ focused }) => <TabIcon icon={icons.darkStock} color={focused ? 'black' : 'white'} focused={focused} />,
           }}
         />
       </Tabs>
@@ -85,15 +85,15 @@ const TabsLayout = () => {
 
 const styles = StyleSheet.create({
   container: {
-    justifyContent: "center",
-    alignItems: "center",
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   icon: {
     width: 20,
     height: 20,
   },
   focused: {
-    backgroundColor: "white",
+    backgroundColor: 'white',
     borderBottomLeftRadius: 50,
     borderBottomRightRadius: 50,
     width: 50,
