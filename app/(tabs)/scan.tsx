@@ -6,7 +6,6 @@ import { Text, View, StyleSheet, Image, Touchable, TouchableOpacity, TextInput }
 
 const Scan = () => {
   const [active, setActive] = useState('button1');
-  const [scan, setScan] = useState(false);
 
   return (
     <View style={styles.container}>

@@ -51,7 +51,7 @@ const TabsLayout = () => {
           options={{
             title: 'Panier',
             headerShown: false,
-            tabBarIcon: ({ color, focused }) => <TabIcon icon={icons.darkBasket} color={focused ? 'black' : 'white'} focused={focused} />,
+            tabBarIcon: ({ focused }) => <TabIcon icon={icons.darkBasket} color={focused ? 'black' : 'white'} focused={focused} />,
           }}
         />
         <Tabs.Screen
@@ -59,7 +59,7 @@ const TabsLayout = () => {
           options={{
             title: 'Scan',
             headerShown: false,
-            tabBarIcon: ({ color, focused }) => <TabIcon icon={icons.darkScan} color={focused ? 'black' : 'white'} focused={focused} />,
+            tabBarIcon: ({ focused }) => <TabIcon icon={icons.darkScan} color={focused ? 'black' : 'white'} focused={focused} />,
           }}
         />
         <Tabs.Screen
@@ -67,7 +67,7 @@ const TabsLayout = () => {
           options={{
             title: 'fournisseurs',
             headerShown: false,
-            tabBarIcon: ({ color, focused }) => <TabIcon icon={icons.darkTruck} color={focused ? 'black' : 'white'} focused={focused} />,
+            tabBarIcon: ({ focused }) => <TabIcon icon={icons.darkTruck} color={focused ? 'black' : 'white'} focused={focused} />,
           }}
         />
         <Tabs.Screen
@@ -75,7 +75,7 @@ const TabsLayout = () => {
           options={{
             title: 'stock',
             headerShown: false,
-            tabBarIcon: ({ color, focused }) => <TabIcon icon={icons.darkStock} color={focused ? 'black' : 'white'} focused={focused} />,
+            tabBarIcon: ({ focused }) => <TabIcon icon={icons.darkStock} color={focused ? 'black' : 'white'} focused={focused} />,
           }}
         />
       </Tabs>
