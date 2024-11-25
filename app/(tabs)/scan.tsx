@@ -37,7 +37,7 @@ const Scan = () => {
             <Image source={icons.loupe} />
             <TextInput placeholder="SCAN MANUEL" />
           </View>
-          <TouchableOpacity onPress={() => router.push('/scanner/Camera')} style={[styles.scan, { flex: 2 / 5 }]}>
+          <TouchableOpacity onPress={() => router.push('/scan/Camera')} style={[styles.scan, { flex: 2 / 5 }]}>
             <Image source={icons.darkScan} />
             <Text>SCANNEZ</Text>
           </TouchableOpacity>
