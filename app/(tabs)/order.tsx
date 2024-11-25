@@ -11,7 +11,7 @@ const Order = () => {
       <View style={styles.body}>
         <Image source={icons.maintenance} />
         <Text style={styles.textBis}>
-          La page <Text style={styles.textBold}>"Fournisseurs"</Text> est en cours de développement.
+          La page <Text style={styles.textBold}>"Commande"</Text> est en cours de développement.
         </Text>
         <Text style={styles.textBis}>Nous vous avertirons lorsqu'elle sera disponible.</Text>
         <Text style={styles.textBis}>
