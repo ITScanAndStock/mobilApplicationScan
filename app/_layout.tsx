@@ -9,6 +9,8 @@ const RootLayout = () => {
   const [fontsLoaded, error] = useFonts({
     'Montserrat-Regular': require('../assets/fonts/Montserrat-Regular.ttf'),
     'Montserrat-SemiBold': require('../assets/fonts/Montserrat-SemiBold.ttf'),
+    'Montserrat-Thin': require('../assets/fonts/Montserrat-Thin.ttf'),
+    'Montserrat-Bold': require('../assets/fonts/Montserrat-Bold.ttf'),
   });
 
   useEffect(() => {
